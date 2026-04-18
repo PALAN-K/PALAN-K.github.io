@@ -1,0 +1,34 @@
+site_name: PalanK AI 위키
+site_description: 소상공인과 사업자를 위한 AI 실전 활용 위키
+site_author: PalanK
+repo_url: https://github.com/PALAN-K/PALAN-K.github.io
+repo_name: PALAN-K/PALAN-K.github.io
+
+theme:
+  name: material
+  language: ko
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 다크 모드로 전환
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 라이트 모드로 전환
+
+nav:
+  - 홈: index.md
+  - 🍱 소상공인 AI 팁:
+    - 제미나이 1분 리뷰 답글: 소상공인 AI 팁/리뷰_답글_생성기.md
